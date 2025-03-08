@@ -9,20 +9,12 @@ This repository contains implementations of **Physics-Informed Neural Networks (
 
 ### Steady-State Heat Equation:
 The governing equation is:
-$$
-\[
-\nabla^2 u(x, y) = f(x,y)
-\]
-$$
+$\[\nabla^2 u(x, y) = f(x,y)\]$
 where \( u(x, y) \) represents the temperature distribution in a 2D domain.
 
 ### Time-Dependent Heat Equation:
 The equation is:
-$$
-\[
-\frac{\partial u}{\partial t} = \alpha \nabla^2 u(x, y)
-\]
-$$
+$\[\frac{\partial u}{\partial t} = \alpha \nabla^2 u(x, y)\]$
 where $\( \alpha \)$ is the thermal diffusivity.
 
 ## 2. Implementation Details
